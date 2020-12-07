@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
-import RNSAK, { Counter } from 'rn-sak'
+import React from 'react'
+import { Text } from 'react-native'
 
 const App = () => {
-  useEffect(() => {
-    console.log(RNSAK)
-  })
-
-  return <Counter />
+    return (
+        <>
+            <Text>Example App</Text>
+        </>
+    )
 }
 
 export default App
